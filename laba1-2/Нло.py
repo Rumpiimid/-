@@ -1,0 +1,5 @@
+r1= int(input('Введите радиус дачи'))
+r2= int(input('Введите радиус первого круга'))
+r3= int(input('Введите радиус второго круга'))
+if r1>=r2+r3 : print('True')
+else : print('False')
