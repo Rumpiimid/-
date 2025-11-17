@@ -1,0 +1,6 @@
+a= int(input('Введите число'))
+b= int( a % 10 )
+c= int ( (a // 10) % 10 )
+d= int ( a // 100 )
+s= int ( b+c+d )
+print ( s)
